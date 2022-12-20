@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MineSweePygame.iml" filepath="$PROJECT_DIR$/.idea/MineSweePygame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyShooterr.iml" filepath="$PROJECT_DIR$/.idea/PyShooterr.iml" />
     </modules>
   </component>
 </project>
