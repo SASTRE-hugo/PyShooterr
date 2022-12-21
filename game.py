@@ -42,7 +42,7 @@ class Game:
         self.missile_event.reset_percent()
         self.is_playing = False
         self.score = 0
-        # jouer le son
+        # jouer le son de fin de partie
         self.sound_manager.play('game_over')
     def update(self, screen):
 

@@ -84,7 +84,7 @@ while running:
                 else:
                     # Mettre le jeu en mode lancer ( lancer la partie )
                     game.start()
-                    # jouer le son de batou
+                    # jouer le son de début de partie
                     game.sound_manager.play('musique')
 
         elif event.type == pygame.KEYUP:
@@ -95,7 +95,7 @@ while running:
             if play_button_rect.collidepoint(event.pos):
                 # Mettre le jeu en mode lancer ( lancer la partie )
                 game.start()
-                # jouer le son de batou
-                #game.sound_manager.play('musique')
+                # jouer le son de début de partie
+                game.sound_manager.play('musique')
 
 
